@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+<link rel="Icon of Roblox KiStudio" href="/Media/MainIcon.png" type="image/png">
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Roblox KiStudio - Home</title>
+</head>
+
+
+<body>
+<header>
+<h1><center><span class="blueColor"><a href="#" class="link_main">Roblox KiStudio</a></span> - Development Team for Russian Community</center></h1>
+</header>
+<center>
+
+<div class="divbutton">
+    <button class="link_discord">Discord Server</button>
+    <button class="link_robloxgroup">Roblox Group</button>
+    <button class="link_blog"><a href="blog/blog.html">Studio Blog</a></button>
+    <button class="link_shop"><a href="shop/shop.html">Models Shop</a></button>
+    <button class="link_devs"><a href="developers/developers.html">Team Developers</a></button>
+</div>
+
+</center>
+ 
+ 
+
+
+<footer>
+
+<p class="footer_"></p>
+
+<center><p>© All rights reserved. Roblox KiStudio, from 2020 year.</p></center>
+
+</footer>
+
+
+
+</body>
+</html>
+
+
+
+<style>
+
+
+
+.link_discord {
+    display: inline-block;
+    background: hsl(258, 90%, 53%);
+    color: #fff;
+    padding: 12px;
+    border: none;
+    border-radius: 3px;
+    text-decoration: none;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    line-height: 1;
+    font-weight: 100;
+    cursor: pointer;
+}
+
+.link_robloxgroup {
+    display: inline-block;
+    background: hsl(0, 0%, 44%);
+    color: #fff;
+    padding: 12px;
+    border: none;
+    border-radius: 3px;
+    text-decoration: none;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    line-height: 1;
+    font-weight: 100;
+    cursor: pointer;
+}
+
+.link_blog {
+    display: inline-block;
+    background: hsl(128, 99%, 33%);
+    color: #fff;
+    padding: 12px;
+    border: none;
+    border-radius: 3px;
+    text-decoration: none;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    line-height: 1;
+    font-weight: 100;
+    cursor: pointer;
+}
+    
+.link_shop {
+    display: inline-block;
+    background: hsl(59, 76%, 35%);
+    color: #fff;
+    padding: 12px;
+    border: none;
+    border-radius: 3px;
+    text-decoration: none;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    line-height: 1;
+    font-weight: 100;
+    cursor: pointer;
+}
+
+.link_devs {
+    display: inline-block;
+    background: hsl(214, 94%, 39%);
+    color: #fff;
+    padding: 12px;
+    border: none;
+    border-radius: 3px;
+    text-decoration: none;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    line-height: 1;
+    font-weight: 100;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.link_main {
+    text-decoration: none;
+    color: #188edd;
+}
+
+body {
+    background: #F2F2F2;
+    max-width: 1000px;
+    margin: 10px auto;
+    padding: 30px;
+    font-family:Arial, Helvetica, sans-serif;
+
+}
+ 
+h1{
+    color: #424242;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #BEBEBE;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+footer {
+    color: #636363;
+    font-family: Arial, Helvetica, sans-serif;
+    border-bottom: 2px solid #BEBEBE;
+}
+
+.footer_{
+    border-bottom: 2px solid #BEBEBE;
+}
+
+p{
+    font: bold;
+}
+
+button {
+    font-size: 18px;
+}
+
+.divbutton:hover button {
+    font-size: 22px;
+}
+
+</style>
+
+
+
+
+<script>
+    console.log("TESTING")
+
+    document.querySelector(".link_discord").onclick = function(){
+        window.open('https://discord.gg/sHeC7YvCbt');
+    }
+
+    document.querySelector(".link_robloxgroup").onclick = function(){
+        window.open('https://www.roblox.com/groups/13209937/Roblox-KiStudio#!/about');
+    }
+
+    $(document).ready(function () {
+        $(document).on('mouseenter', '.divbutton', function () {
+            console.log("enter")
+        }).on('mouseleave', '.divbutton', function () {
+            console.log("leave")
+        });
+    });
+
+</script>
